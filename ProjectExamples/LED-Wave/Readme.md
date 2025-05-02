@@ -1,7 +1,4 @@
-# Demo
-<p align="center">
-  <img src="images-gifs/LED_WAVE-ezgif.gif" alt="LED Wave Demo" width="500"/>
-</p>
+![LED Wave Demo](https://github.com/jhherre3/FPGA-DE10Lite-Archive/blob/main/images-gifs/LED_WAVE-ezgif.gif?raw=true)
 
 
 
