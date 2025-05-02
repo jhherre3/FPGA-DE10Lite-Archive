@@ -2,7 +2,7 @@
 
 ## 🔧 Project Overview
 
-This FPGA project showcases a dynamic LED wave pattern on the DE10-Lite development board using **pure Verilog HDL**, without any external components. The design demonstrates how to manipulate digital outputs (LEDs) using onboard inputs (switches) and a clock-driven finite state machine.
+This FPGA project showcases a dynamic LED wave pattern on the DE10-Lite development board using **pure Verilog HDL**, without any external components. The design demonstrates how to manipulate digital outputs (LEDs) using onboard inputs (switches) and a clock-driven finite state machine. Refer to Test_.zip file
 
 The system lights up one LED at a time in a wave-like sequence. The user can toggle a hardware switch (`SW[0]`) to reverse the wave direction in real time, allowing bidirectional movement across the 10 red LEDs.
 
@@ -61,22 +61,3 @@ While this project is simple in appearance, it demonstrates several key concepts
    - Input (`SW[0]`) is debounced implicitly due to sampling on slower time intervals (~0.25s). In real systems, proper debounce logic would be required for higher-speed switches.
 
 ---
-
-## 🧪 Possible Extensions
-
-- **Pause control:** Add `SW[1]` to pause the animation.
-- **Variable speed:** Use `SW[3:2]` to select from 4 speed levels.
-- **Bidirectional sweep:** Implement ping-pong behavior (0 → 9 → 0).
-- **PWM fading:** Replace on/off LED with brightness ramping using pulse-width modulation.
-- **Seven-segment sync:** Display the index on HEX displays in sync with LED position.
-
----
-
-## 📂 File Structure
-
-```bash
-led_wave_direction/
-├── blink.v                # Top-level Verilog HDL source
-├── led_wave_direction.v  # Final version with switch control
-├── DE10_Lite_Pin_Assignments.txt # Pin map for Quartus
-├── README.md              # You're here!
