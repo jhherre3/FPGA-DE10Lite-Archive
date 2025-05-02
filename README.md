@@ -21,13 +21,6 @@ The goals of this repository are to:
 - **IDE**: Quartus Prime Lite Edition
 - **Programmer**: USB-Blaster
 
-## 📂 Project List
-
-Each folder inside `projects/` contains a complete Quartus project with:
-- `source/` – Verilog files and/or block diagrams
-- `project.qpf` and `project.qsf` – Project files and pin assignments
-- `README.md` – Description and instructions for the project
-
 ## 🧠 What You'll Learn
 
 By exploring these projects, you can gain experience with:
