@@ -47,7 +47,6 @@ To try out a project:
 
 ## 📚 Further Resources
 
-- [Intel Verilog HDL Guide (PDF)](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/manual/mnl_verilog.pdf)
 - [Nandland FPGA tutorials](https://www.nandland.com/)
 - [Digital Design and Computer Architecture – Harris & Harris](https://www.amazon.com/dp/0128200650)
 - [Terasic DE10-Lite User Manual](https://www.terasic.com.tw/cgi-bin/page/archive_download.pl?Language=English&No=1046&FID=5f7d4a0b05d30de1)
