@@ -1,4 +1,8 @@
-![LED Wave Demo](images-gifs/LED_WAVE-ezgif.gif)
+# Demo
+<p align="center">
+  <img src="images-gifs/LED_WAVE-ezgif.gif" alt="LED Wave Demo" width="500"/>
+</p>
+
 
 
 # DE10-Lite LED Wave Direction Control (Verilog)
