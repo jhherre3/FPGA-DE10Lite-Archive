@@ -1,3 +1,6 @@
+![LED Wave Demo](images-gifs/LED_WAVE-ezgif.gif)
+
+
 # DE10-Lite LED Wave Direction Control (Verilog)
 
 ## 🔧 Project Overview
