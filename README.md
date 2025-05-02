@@ -1,3 +1,5 @@
+![DE10-Lite Layout](images-gifs/de10litelayout.jpg)
+
 # DE10-Lite FPGA Projects
 
 Welcome to my FPGA project collection using the [DE10-Lite development board](https://www.terasic.com.tw/cgi-bin/page/archive.pl?CategoryNo=234&Language=English&No=1021). This repository serves as both a personal learning journey and a showcase of practical applications using Verilog and the Quartus development environment.
