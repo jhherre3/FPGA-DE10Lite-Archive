@@ -56,10 +56,7 @@
 ## 🔢 7-Segment Display (HEX0–HEX5)
 Each display uses 7 segments [0–6]. Active-low (common anode).
 
-<details>
-<summary>Click to view HEX segment pin assignments</summary>
-
-### HEX0
+HEX0
 - HEX0[0] → PIN_C14
 - HEX0[1] → PIN_E15
 - HEX0[2] → PIN_C15
@@ -68,7 +65,7 @@ Each display uses 7 segments [0–6]. Active-low (common anode).
 - HEX0[5] → PIN_D17
 - HEX0[6] → PIN_C17
 
-### HEX1
+HEX1
 - HEX1[0] → PIN_C18
 - HEX1[1] → PIN_D18
 - HEX1[2] → PIN_E18
@@ -77,7 +74,7 @@ Each display uses 7 segments [0–6]. Active-low (common anode).
 - HEX1[5] → PIN_A18
 - HEX1[6] → PIN_B17
 
-### HEX2
+HEX2
 - HEX2[0] → PIN_B20
 - HEX2[1] → PIN_A20
 - HEX2[2] → PIN_B19
@@ -86,7 +83,7 @@ Each display uses 7 segments [0–6]. Active-low (common anode).
 - HEX2[5] → PIN_C22
 - HEX2[6] → PIN_B22
 
-### HEX3
+HEX3
 - HEX3[0] → PIN_F21
 - HEX3[1] → PIN_E22
 - HEX3[2] → PIN_E21
@@ -95,7 +92,7 @@ Each display uses 7 segments [0–6]. Active-low (common anode).
 - HEX3[5] → PIN_D19
 - HEX3[6] → PIN_E17
 
-### HEX4
+HEX4
 - HEX4[0] → PIN_F18
 - HEX4[1] → PIN_E20
 - HEX4[2] → PIN_E19
@@ -104,7 +101,7 @@ Each display uses 7 segments [0–6]. Active-low (common anode).
 - HEX4[5] → PIN_F19
 - HEX4[6] → PIN_F20
 
-### HEX5
+HEX5
 - HEX5[0] → PIN_J20
 - HEX5[1] → PIN_K20
 - HEX5[2] → PIN_L18
@@ -112,8 +109,6 @@ Each display uses 7 segments [0–6]. Active-low (common anode).
 - HEX5[4] → PIN_M20
 - HEX5[5] → PIN_N19
 - HEX5[6] → PIN_N20
-
-</details>
 
 ---
 
@@ -134,7 +129,7 @@ Each display uses 7 segments [0–6]. Active-low (common anode).
 - `DRAM_DQ[0–15]`  → e.g. DQ0 = PIN_Y21 to DQ15 = PIN_F22
 - `DRAM_ADDR[0–12]`, `WE_N`, `RAS_N`, `CAS_N`, `CS_N`, etc.
 
-📘 Refer to Table 3-8 in the DE10-Lite manual for full SDRAM pin list.
+Refer to Table 3-8 in the DE10-Lite manual for full SDRAM pin list.
 
 ---
 
@@ -155,17 +150,13 @@ Each display uses 7 segments [0–6]. Active-low (common anode).
 | GPIO[1]  | ... up to              |
 | GPIO[35] | PIN_AA2                |
 
-📘 See DE10-Lite Manual Table 3-9 for all JP header mappings.
+See DE10-Lite Manual Table 3-9 for all JP header mappings.
 
 ---
 
-### 📎 Notes:
-- All I/O standards: **3.3V LVTTL**
-- HEX displays are **common anode** (LOW turns ON a segment)
-- Use `MAX10_CLK1_50` (PIN_P11) as your default system clock
+Notes:
+- All I/O standards: 3.3V LVTTL
+- HEX displays are common anode (LOW turns ON a segment)
+- Use MAX10_CLK1_50 (PIN_P11) as your default system clock
 
----
-
-### ✅ Last Updated
-May 2025 — based on official [DE10-Lite User Manual](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=139&No=1046)
-
+Last Updated: May 2025 — based on official DE10-Lite User Manual
