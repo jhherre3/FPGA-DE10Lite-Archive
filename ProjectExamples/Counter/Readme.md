@@ -1,4 +1,4 @@
-![LED Wave Demo]([images-gifs/counter-ez.gif](https://github.com/jhherre3/FPGA-DE10Lite-Archive/blob/main/images-gifs/counter-ez.gif)?raw=true)
+![LED Wave Demo](images-gifs/counter-ez.gif)
 
 # ⏱ Six-Digit Timer – DE10-Lite FPGA Project
 
