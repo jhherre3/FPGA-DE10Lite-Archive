@@ -1,0 +1,50 @@
+==============================
+DE10-Lite FPGA Board Pin Map
+==============================
+
+--- Push Buttons ---
+KEY0   -> PIN_B8
+KEY1   -> PIN_A7
+
+--- Slide Switches (SW[9:0]) ---
+SW0    -> PIN_C10
+SW1    -> PIN_C11
+SW2    -> PIN_D12
+SW3    -> PIN_C12
+SW4    -> PIN_A12
+SW5    -> PIN_B12
+SW6    -> PIN_A13
+SW7    -> PIN_A14
+SW8    -> PIN_B14
+SW9    -> PIN_F15
+
+--- Red LEDs (LEDR[9:0]) ---
+LEDR0  -> PIN_A8
+LEDR1  -> PIN_A9
+LEDR2  -> PIN_A10
+LEDR3  -> PIN_B10
+LEDR4  -> PIN_D13
+LEDR5  -> PIN_C13
+LEDR6  -> PIN_E14
+LEDR7  -> PIN_D14
+LEDR8  -> PIN_A11
+LEDR9  -> PIN_B11
+
+--- 7-Segment Displays (HEX0–HEX5, only [0] shown) ---
+HEX0[0] -> PIN_C14
+HEX1[0] -> PIN_C18
+HEX2[0] -> PIN_B20
+HEX3[0] -> PIN_F21
+HEX4[0] -> PIN_F18
+HEX5[0] -> PIN_J20
+
+--- Accelerometer (ADXL345 over I2C) ---
+I2C_SDA     -> PIN_V11
+I2C_SCL     -> PIN_AB15
+CS_n        -> PIN_AB16
+SDO (Addr)  -> PIN_V12
+INT1        -> PIN_Y14
+INT2        -> PIN_Y13
+
+--- GPIO Expansion Header (JP1/JP2) ---
+GPIO[0-35]  -> Pins V10 to AA2 (see full pinout in user manual)
