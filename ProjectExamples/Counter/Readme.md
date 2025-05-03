@@ -1,3 +1,4 @@
+![LED Wave Demo](images-gifs/counter-ez.gif)
 
 # ⏱ Six-Digit Timer – DE10-Lite FPGA Project
 
