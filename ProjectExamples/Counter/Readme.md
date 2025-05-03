@@ -1,4 +1,4 @@
-```markdown
+
 # ⏱ Six-Digit Timer – DE10-Lite FPGA Project
 
 This Verilog module implements a **six-digit decimal timer** using a **50 MHz clock** input on the [Terasic DE10-Lite FPGA board](https://www.terasic.com.tw/cgi-bin/page/archive.pl?CategoryNo=234&Language=English&No=1021). The timer counts seconds and displays the result in **BCD (binary-coded decimal)** format across six 7-segment displays.
