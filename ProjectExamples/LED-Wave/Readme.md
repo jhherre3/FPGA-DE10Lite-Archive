@@ -1,4 +1,4 @@
-![LED Wave Demo](https://github.com/jhherre3/FPGA-DE10Lite-Archive/blob/main/images-gifs/LED_WAVE-ezgif.gif?raw=true)
+![LED Wave Demo](https://github.com/jhherre3/FPGA-DE10Lite-Archive/blob/main/images-gifs/counter-ez.gif)
 
 
 
